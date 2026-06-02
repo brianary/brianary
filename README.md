@@ -4,9 +4,9 @@
 [![webcoder.info](https://img.shields.io/badge/webcoder-info-blue)](https://webcoder.info/)
 [![dataelemental.dev](https://img.shields.io/badge/dataelemental-dev-green)](https://dataelemental.dev/)
 [![scripts repo](https://img.shields.io/badge/scripts-ps1-lightgrey)](https://github.com/brianary/scripts/)
-[![Mastodon: @dataelemental@mastodon.social](https://badgen.net/badge/@dataelemental/@mastodon.social/blue?icon=mastodon)](https://mastodon.social/@dataelemental "DataElemental Mastodon profile")
+[![Mastodon: @dataelemental@mastodon.social](https://badgen.net/badge/@dataelemental/@mastodon.social/green?icon=mastodon)](https://mastodon.social/@dataelemental "DataElemental Mastodon profile")
 [![Mastodon: @brianary@mastodon.spotek.io](https://badgen.net/badge/@brianary/@mastodon.spotek.io/purple?icon=mastodon)](https://mastodon.spotek.io/@brianary "brianary Mastodon profile")
-[![Mastodon: @eponymouslaws@mastodon.cloud](https://badgen.net/badge/@eponymouslaws/@mastodon.cloud/orange?icon=mastodon)](https://mastodon.cloud/@eponymouslaws "eponymouslaws Mastodon profile")
+[![Mastodon: @eponymouslaws@mastodon.cloud](https://badgen.net/badge/@eponymouslaws/@mastodon.cloud/blue?icon=mastodon)](https://mastodon.cloud/@eponymouslaws "eponymouslaws Mastodon profile")
 [![brianary Bluesky profile](https://img.shields.io/bluesky/followers/brianary.bsky.social)](https://bsky.app/profile/brianary.bsky.social)
 
 ---
