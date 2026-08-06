@@ -20,6 +20,7 @@ Begin
 
             "| [$Name]($Url)" + ($Topics -contains 'fsharp' ? ' [![F#](https://img.shields.io/badge/F%23-378BBA?logo=fsharp&logoColor=fff)](#)' : '')
             "$Starred"
+            "[![GitHub Issues](https://img.shields.io/github/issues/brianary/$Name)](https://github.com/brianary/$Name/issues)"
             "[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/$Name)](https://www.powershellgallery.com/packages/$Name/)"
             "[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/$Name)](https://www.powershellgallery.com/packages/$Name/)"
             "[![Actions Status](https://github.com/brianary/$Name/actions/workflows/continuous.yml/badge.svg)](https://github.com/brianary/$Name/actions/workflows/continuous.yml) |"
@@ -39,8 +40,8 @@ Begin
 PowerShell modules
 ------------------
 
-| Repository | :star: | Version | Downloads | Test  |
-|------------|-------:|---------|-----------|-------|
+| Repository | :star: | Issues | Version | Downloads | Test  |
+|------------|-------:|-------:|---------|-----------|-------|
 $($list |Format-PowerShellRepo)
 "@
     }
@@ -59,6 +60,7 @@ $($list |Format-PowerShellRepo)
 
             "| [$perlName]($Url)"
             "$Starred"
+            "[![GitHub Issues](https://img.shields.io/github/issues/brianary/$Name)](https://github.com/brianary/$Name/issues)"
             "[![CPAN Version](https://img.shields.io/cpan/v/$Name)](https://metacpan.org/pod/$perlName)"
         ) -join ' | '
     }
@@ -76,8 +78,8 @@ $($list |Format-PowerShellRepo)
 Perl modules
 ------------
 
-| Repository | :star: | Version |
-|------------|-------:|---------|
+| Repository | :star: | Issues | Version |
+|------------|-------:|-------:|---------|
 $($list |Format-PerlRepo)
 "@
     }
