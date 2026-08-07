@@ -11,19 +11,24 @@ Begin
     {
         [CmdletBinding()] Param(
         [Parameter(ValueFromPipelineByPropertyName=$true)][string] $Name,
-        [Parameter(ValueFromPipelineByPropertyName=$true)][uri] $Url,
+        [Parameter(ValueFromPipelineByPropertyName=$true)][uri] $Url,   
         [Parameter(ValueFromPipelineByPropertyName=$true)][int] $Starred,
         [Parameter(ValueFromPipelineByPropertyName=$true)][string[]] $Topics
         )
+        $shields = 'https://img.shields.io'
+        $brianary = 'https://github.com/brianary'
+        $package = "https://www.powershellgallery.com/packages/$Name/"
+        $continuous = "$brianary/$Name/actions/workflows/continuous.yml"
+        $fsharp = " [![F#]($shields/badge/F%23-378BBA?logo=fsharp&logoColor=fff)](${brianary}?tab=repositories&q=fsharp)"
         # see https://github.com/inttter/md-badges#-programming-language
         return @(
 
-            "| [$Name]($Url)" + ($Topics -contains 'fsharp' ? ' [![F#](https://img.shields.io/badge/F%23-378BBA?logo=fsharp&logoColor=fff)](#)' : '')
+            "| [$Name]($Url)" + ($Topics -contains 'fsharp' ? $fsharp : '')
             "$Starred"
-            "[![GitHub Issues](https://img.shields.io/github/issues/brianary/$Name)](https://github.com/brianary/$Name/issues)"
-            "[![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/$Name)](https://www.powershellgallery.com/packages/$Name/)"
-            "[![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/$Name)](https://www.powershellgallery.com/packages/$Name/)"
-            "[![Actions Status](https://github.com/brianary/$Name/actions/workflows/continuous.yml/badge.svg)](https://github.com/brianary/$Name/actions/workflows/continuous.yml) |"
+            "[![GitHub Issues]($shields/github/issues/brianary/$Name)]($brianary/$Name/issues)"
+            "[![PowerShell Gallery Version]($shields/powershellgallery/v/$Name)]($package)"
+            "[![PowerShell Gallery]($shields/powershellgallery/dt/$Name)]($package)"
+            "[![Actions Status]($continuous/badge.svg)]($continuous) |"
         ) -join ' | '
     }
 
