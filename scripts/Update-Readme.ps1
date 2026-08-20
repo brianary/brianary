@@ -48,6 +48,12 @@ PowerShell modules
 | Repository | :star: | Issues | Version | Downloads | Test  |
 |------------|-------:|-------:|---------|-----------|-------|
 $($list |Format-PowerShellRepo)
+
+[:package: Resource files](https://learn.microsoft.com/powershell/module/microsoft.powershell.psresourceget/about/about_psresourceget#searching-by-required-resources "a manifest of multiple modules for Install-PSResource"):
+[:books: all @brianary](brianary.psd1 "all of my modules") :small_blue_diamond:
+[:books: data](data.psd1 "modules for working with data formats") :small_blue_diamond:
+[:books: security](security.psd1 "modules for managing certificates, passwords, and other security concerns") :small_blue_diamond:
+[:books: server admin](server-admin.psd1 "modules for managing servers")
 "@
     }
 
