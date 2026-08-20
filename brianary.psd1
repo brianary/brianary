@@ -1,0 +1,22 @@
+@{
+    CertAdmin = @{ repository = 'PSGallery' }
+    PowerShellForGitHub = @{ repository = 'PSGallery' }
+    Codesmithy = @{ repository = 'PSGallery' }
+    dbatools = @{ repository = 'PSGallery' }
+    Databaseline = @{ repository = 'PSGallery' }
+    Detextive = @{ repository = 'PSGallery' }
+    HtmlToMarkdown = @{ repository = 'PSGallery' }
+    JSONLab = @{ repository = 'PSGallery' }
+    ModernConveniences = @{ repository = 'PSGallery' }
+    Networkhorse = @{ repository = 'PSGallery' }
+    Pretendpoint = @{ repository = 'PSGallery' }
+    'Microsoft.PowerShell.SecretManagement' = @{ repository = 'PSGallery' }
+    'Microsoft.PowerShell.SecretStore' = @{ repository = 'PSGallery' }
+    Secrecy = @{ repository = 'PSGallery' }
+    SelectHtml = @{ repository = 'PSGallery' }
+    SelectXmlExtensions = @{ repository = 'PSGallery' }
+    SeqLogger = @{ repository = 'PSGallery' }
+    StainedGlass = @{ repository = 'PSGallery' }
+    Unicodery = @{ repository = 'PSGallery' }
+    XMLLab = @{ repository = 'PSGallery' }
+}
