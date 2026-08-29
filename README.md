@@ -34,6 +34,7 @@ PowerShell modules
 | [XMLLab](https://github.com/brianary/XMLLab) | 0 | [![GitHub Issues](https://img.shields.io/github/issues/brianary/XMLLab)](https://github.com/brianary/XMLLab/issues) | [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/XMLLab)](https://www.powershellgallery.com/packages/XMLLab/) | [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/XMLLab)](https://www.powershellgallery.com/packages/XMLLab/) | [![Actions Status](https://github.com/brianary/XMLLab/actions/workflows/continuous.yml/badge.svg)](https://github.com/brianary/XMLLab/actions/workflows/continuous.yml) |
 
 [:package: Resource files](https://learn.microsoft.com/powershell/module/microsoft.powershell.psresourceget/about/about_psresourceget#searching-by-required-resources "a manifest of multiple modules for Install-PSResource"):
+&emsp;
 [:books: all @brianary](brianary.psd1 "all of my modules") :small_blue_diamond:
 [:books: data](data.psd1 "modules for working with data formats") :small_blue_diamond:
 [:books: security](security.psd1 "modules for managing certificates, passwords, and other security concerns") :small_blue_diamond:
