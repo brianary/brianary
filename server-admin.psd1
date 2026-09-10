@@ -1,4 +1,4 @@
-@{
+@{ # usage: Install-PSResource -TrustRepository -RequiredResourceFile ./server-admin.psd1
     CertAdmin = @{ repository = 'PSGallery' }
     Detextive = @{ repository = 'PSGallery' }
     JSONLab = @{ repository = 'PSGallery' }

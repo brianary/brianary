@@ -1,4 +1,4 @@
-@{
+@{ # usage: Install-PSResource -TrustRepository -RequiredResourceFile ./brianary.psd1
     CertAdmin = @{ repository = 'PSGallery' }
     PowerShellForGitHub = @{ repository = 'PSGallery' }
     Codesmithy = @{ repository = 'PSGallery' }

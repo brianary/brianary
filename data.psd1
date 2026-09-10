@@ -1,4 +1,4 @@
-@{
+@{ # usage: Install-PSResource -TrustRepository -RequiredResourceFile ./data.psd1
     dbatools = @{ repository = 'PSGallery' }
     Databaseline = @{ repository = 'PSGallery' }
     Detextive = @{ repository = 'PSGallery' }
