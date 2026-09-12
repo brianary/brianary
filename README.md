@@ -40,6 +40,11 @@ PowerShell modules
 [:books: security](security.psd1 "modules for managing certificates, passwords, and other security concerns") :small_blue_diamond:
 [:books: server admin](server-admin.psd1 "modules for managing servers")
 
+> [!NOTE]
+> The number of downloads currently appears to be [inaccurate][].
+
+[inaccurate]: https://github.com/PowerShell/PowerShellGallery/issues/350 "Total download counts for a module are different than the version history download counts"
+
 Perl modules
 ------------
 
